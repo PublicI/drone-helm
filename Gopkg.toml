@@ -41,3 +41,7 @@ ignored = ["sort"]
 [prune]
   go-tests = true
   unused-packages = true
+
+[[override]]
+  name = "github.com/russross/blackfriday"
+  version = "1.5.2"
